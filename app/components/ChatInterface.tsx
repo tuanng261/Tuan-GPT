@@ -169,7 +169,7 @@ export default function ChatInterface() {
         {/* Main Chat Area */}
         <div className="flex-1 flex flex-col ml-72 min-h-[calc(100vh-4rem)]" style={{ contain: 'layout style' }}>
           {/* Content Area - Scrollable */}
-          <div className={`flex-1 overflow-y-auto ${!isFirstInteraction ? 'pb-48' : 'pb-32'}`} style={{ contain: 'layout style paint' }}>
+          <div className={`flex-1 overflow-y-auto ${!isFirstInteraction ? 'pb-64' : 'pb-40'}`} style={{ contain: 'layout style paint' }}>
             <AnimatePresence mode="wait">
               {showAbout ? (
                 <motion.div

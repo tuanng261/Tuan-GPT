@@ -1,6 +1,7 @@
 'use client';
 
-import { User, Mail, Linkedin, Github, Briefcase } from 'lucide-react';
+import Image from 'next/image';
+import { Mail, Linkedin, Github, Briefcase } from 'lucide-react';
 
 export default function AboutPage() {
   return (
@@ -12,8 +13,15 @@ export default function AboutPage() {
         <div className="text-center border-b border-black/10 pb-6">
           {/* Avatar Container */}
           <div className="relative inline-block mb-4">
-            <div className="w-20 h-20 border border-[#00d9ff]/30 bg-white pixel-corners arcade-glow flex items-center justify-center">
-              <User size={40} className="text-black/70" strokeWidth={1.5} />
+            <div className="w-20 h-20 border border-[#00d9ff]/30 bg-white pixel-corners arcade-glow flex items-center justify-center overflow-hidden">
+              <Image
+                src="/Profile.jpeg"
+                alt="Tuan Nguyen profile photo"
+                width={80}
+                height={80}
+                className="object-cover w-full h-full"
+                priority
+              />
             </div>
             
             {/* Decorative pixels around avatar */}

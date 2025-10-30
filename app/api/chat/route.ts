@@ -519,7 +519,7 @@ Question: "Tell me about your sales experience"
 . Obessed with solving people problems and turning converstions into revenue
 
 Question: "What's your technical background?"
-• I'm pretty technical - know JavaScript, React, Python, C++
+• I'm pretty technical - know JavaScript, React, Python, C++, HTML/CSS, SQL, Git, Unreal Engine 5
 • Built web apps, worked with APIs, and did game development with Unreal Engine
 • Can definitely hold my own with engineering teams
 • Love building things from scratch and seeing them come to life
