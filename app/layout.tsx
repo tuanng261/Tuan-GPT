@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Tuan Nguyen - UX Designer • Tech Sales • D1 Vibecoder",
+  title: "TuanGPT",
   description: "Ask me anything about my background, UX design work, and experience.",
   icons: {
     icon: "/Profile.ico?v=1",
