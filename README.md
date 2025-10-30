@@ -2,7 +2,27 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+```bash
+git clone https://github.com/tuanng261/Tuan-GPT.git
+cd Tuan-GPT
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+```bash
+cp .env.example .env.local
+```
+
+Edit `.env.local` and add your Anthropic API key:
+- Get your API key from [Anthropic Console](https://console.anthropic.com/)
+- Replace `your_anthropic_api_key_here` with your actual API key
+
+4. Run the development server:
 
 ```bash
 npm run dev
@@ -17,6 +37,14 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+## Environment Variables
+
+This project requires the following environment variable:
+
+- `ANTHROPIC_API_KEY`: Your Anthropic API key for Claude (required for the chat feature)
+
+**Important:** Never commit your `.env.local` file to version control. It's already included in `.gitignore`.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
