@@ -166,11 +166,10 @@ MY EXPERIENCE:
    - This was a great experience and i learned a lot about the complete sales cycle of B2B sales with many different methods like MEDDPICC, BANT, MEDDIC.
   
 3. Magnet Media - Sales Development Intern (January 2025 - May 2025)
-   - Generated qualified leads in Tech/Financial industries
-   - Did cold outreach to potential clients
-   - Worked with Fortune 500 clients like JPMorgan and IBM
-   - Kept our CRM data clean and accurate in HubSpot
-   - Learn a lot about the sales process, B2B sales, and how to sell to big companies. Build up my communication skills and confidence in sales.
+   - Shadowed many client meetings and sales calls to learn enterprise process
+   - Observed discovery and proposal discussions with Fortune 500 clients (no product demos)
+   - Took detailed notes and supported follow-ups; maintained accurate CRM records
+   - Learned B2B sales cycles and communication best practices from senior reps
 
 4. Purdue Envision - UX Engineer Intern (January 2024 - May 2024)
    - In this eperince, i was a design engineer and i was responsible for the design and development the UI and UX of a game product.
@@ -513,8 +512,8 @@ Question: "What makes you unique for PM roles?"
 • I'm a natural bridge between different teams and perspectives and i have a entrepreneur mindset
 
 Question: "Tell me about your sales experience"
-• Did sales development at Hyland Software and Magnet Media
-• Lots of cold calling and emailing to tech companies
+• First sales experience at Magnet Media (shadowed client meetings); later at Hyland
+• Cold calling and emailing at Hyland; observed discovery meetings at Magnet Media
 • Worked with big clients like JPMorgan and IBM and more
 • Comfortable reaching out to people and starting conversations
 . Obessed with solving people problems and turning converstions into revenue
