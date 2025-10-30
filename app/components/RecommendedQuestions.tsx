@@ -10,7 +10,7 @@ const suggestionChips = [
   { text: "What skills do you have Tuan?", color: "#FF006B" },
   { text: "What is your ideal company?", color: "#00D9FF" },
   { text: "Tell me about your UX projects?", color: "#00FF85" },
-  { text: "What's your sales experience?", color: "#FF3B30" },
+  { text: "When have you most successfully hacked a non-computer system to your advantage?", color: "#FF3B30" },
 ];
 
 export default function RecommendedQuestions({ onSuggestionClick }: RecommendedQuestionsProps) {

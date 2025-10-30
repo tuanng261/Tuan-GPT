@@ -29,7 +29,9 @@ export default function AboutPage() {
             <h1 className="text-sm font-press-start-2p text-black tracking-[0.2em] glitch-hover">TUAN NGUYEN</h1>
             <div className="w-2 h-2 bg-[#ffff00] pixel-blink" style={{ animationDelay: '1s' }}></div>
           </div>
-          <p className="font-mono text-base">Designer/Sales Dev/Pro Vibecoder</p>
+          <p className="font-mono text-black tracking-wide text-xs sm:text-sm md:text-base">
+            Designer / Sales Dev / Pro Vibecoder
+          </p>
         </div>
 
         {/* About Section */}
@@ -125,6 +127,29 @@ export default function AboutPage() {
           </div>
         </div>
 
+        {/* Technical Projects Section */}
+        <div>
+          <div className="flex items-center space-x-2 mb-4 pb-2 border-b border-black/10">
+            <div className="w-1.5 h-1.5 bg-[#00ff85]"></div>
+            <h2 className="text-xs font-press-start-2p text-black tracking-[0.15em] glitch-hover">TECHNICAL PROJECTS</h2>
+          </div>
+          <div className="space-y-4">
+            {/* Orvia.ai Project */}
+            <div className="border border-black/10 pixel-corners p-4 group relative transition-colors hover:border-[#00d9ff]/30 hover:shadow-[0_0_8px_rgba(0,217,255,0.1)]">
+              <div className="absolute top-0 right-0 w-1.5 h-1.5 bg-[#00d9ff] opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <h3 className="font-mono text-sm text-black/90 mb-2">Orvia.ai</h3>
+              <p className="font-mono text-xs text-black/60">AI SaaS for indie game developers: sentiment analysis, Steam data, actionable insights</p>
+            </div>
+
+            {/* Aura App Project */}
+            <div className="border border-black/10 pixel-corners p-4 group relative transition-colors hover:border-[#ff6b35]/30 hover:shadow-[0_0_8px_rgba(255,107,53,0.1)]">
+              <div className="absolute top-0 right-0 w-1.5 h-1.5 bg-[#ff6b35] opacity-0 group-hover:opacity-100 transition-opacity"></div>
+              <h3 className="font-mono text-sm text-black/90 mb-2">Aura App</h3>
+              <p className="font-mono text-xs text-black/60">Productivity and focus tracker: records sessions, Strava for desk work</p>
+            </div>
+          </div>
+        </div>
+
         {/* Contact Section */}
         <div className="border-t border-black/10 pt-4">
           <div className="flex items-center space-x-2 mb-4 pb-2 border-b border-black/10">
@@ -140,18 +165,13 @@ export default function AboutPage() {
             </button>
             
             {/* LinkedIn Button */}
-            <button className="flex items-center space-x-3 px-3 py-2 border border-black/20 pixel-corners group relative transition-colors hover:border-[#ff00ff]/40 hover:shadow-[0_0_8px_rgba(255,0,255,0.15)]">
+            <a href="https://www.linkedin.com/in/tuan-nguyen-purdue" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-3 px-3 py-2 border border-black/20 pixel-corners group relative transition-colors hover:border-[#ff00ff]/40 hover:shadow-[0_0_8px_rgba(255,0,255,0.15)]">
               <div className="absolute top-0 right-0 w-1.5 h-1.5 bg-[#ff00ff] opacity-0 group-hover:opacity-100 transition-opacity"></div>
               <Linkedin size={14} className="text-[#ff00ff]" strokeWidth={1.5} />
               <span className="font-mono text-sm text-black/80">LinkedIn</span>
-            </button>
+            </a>
             
-            {/* GitHub Button */}
-            <button className="flex items-center space-x-3 px-3 py-2 border border-black/20 pixel-corners group relative transition-colors hover:border-[#ffff00]/40 hover:shadow-[0_0_8px_rgba(255,255,0,0.15)]">
-              <div className="absolute top-0 right-0 w-1.5 h-1.5 bg-[#ffff00] opacity-0 group-hover:opacity-100 transition-opacity"></div>
-              <Github size={14} className="text-[#ffff00]" strokeWidth={1.5} />
-              <span className="font-mono text-sm text-black/80">GitHub</span>
-            </button>
+            
           </div>
         </div>
       </div>
