@@ -54,7 +54,7 @@ export default function PreloadScreen({ onStart }: PreloadScreenProps) {
             color: '#ff0000'
           }}
         >
-          ASKED ME ANYTHING
+          ASK ME ANYTHING
         </motion.p>
 
         {/* START Button */}
